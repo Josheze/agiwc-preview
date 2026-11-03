@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Assemblies of God International Worship Centre</title>
+<script>try{var t=localStorage.getItem("agiwc-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#FFFFFF}
+a{color:inherit}a:hover{color:#2448D6}
+.theme-btn:hover{background:rgba(255,255,255,.2) !important}
+.hero{background-image:linear-gradient(90deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,.55) 55%,rgba(5,11,31,.25) 100%),url(images/hero-worship.jpg);background-size:cover;background-position:center 25%;background-attachment:fixed}
+.online{background-image:linear-gradient(rgba(36,72,214,.86),rgba(36,72,214,.86)),url(images/congregation.jpg);background-size:cover;background-position:center;background-attachment:fixed}
+.glass{background:rgba(255,255,255,.08);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.m-tile{position:relative;overflow:hidden;background-size:cover;background-position:center 25%;transition:transform .4s ease}
+.m-tile:hover{transform:scale(1.015)}
+.t-worship{background-image:linear-gradient(0deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,0) 55%),url(images/celebration.jpg)}
+.t-prayer{background-image:linear-gradient(0deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,0) 60%),url(images/prayer.jpg)}
+.t-youth{background-image:linear-gradient(0deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,0) 60%),url(images/youth.jpg)}
+.t-evan{background-image:linear-gradient(0deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,0) 60%),url(images/congregation-2.jpg)}
+.t-online{background-image:linear-gradient(0deg,rgba(5,11,31,.92) 0%,rgba(5,11,31,0) 60%),url(images/sermon-stage.jpg)}
+.themed *{transition:background-color .4s ease,color .4s ease,border-color .4s ease}
+.lift{transition:transform .3s ease,border-color .3s ease,background-color .4s ease,color .4s ease}
+.lift:hover{transform:translateY(-6px);border-color:rgba(242,182,48,.6) !important}
+.pill-gold:hover{background:#FFC94D !important}
+.pill-line:hover{background:rgba(127,140,170,.18) !important}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee{animation:marquee 28s linear infinite}
+@keyframes blink{50%{opacity:0}}
+.cursor{animation:blink 1s step-end infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(242,182,48,.7)}70%{box-shadow:0 0 0 10px rgba(242,182,48,0)}100%{box-shadow:0 0 0 0 rgba(242,182,48,0)}}
+.live-dot{animation:pulse 2s infinite}
+@media (max-width:900px){
+.nav-links{display:none !important}
+.hero,.online{background-attachment:scroll}
+.hero-title{font-size:52px !important}
+.bento{grid-template-columns:repeat(2,minmax(0,1fr)) !important;grid-auto-rows:260px !important}
+.bento > *{grid-column:auto !important;grid-row:auto !important}
+.bento > .big{grid-column:span 2 !important}
+.countdown-card{position:static !important;margin:40px 5% 0 !important;width:auto !important}
+.watermark{font-size:140px !important}
+}
+.ph-about{background-image:linear-gradient(90deg,rgba(5,11,31,.9) 0%,rgba(5,11,31,.5) 60%,rgba(5,11,31,.25) 100%),url(images/congregation-2.jpg);background-size:cover;background-position:center 30%;background-attachment:fixed}
+.ph-visit{background-image:linear-gradient(90deg,rgba(5,11,31,.9) 0%,rgba(5,11,31,.5) 60%,rgba(5,11,31,.25) 100%),url(images/congregation.jpg);background-size:cover;background-position:center;background-attachment:fixed}
+.ph-sermons{background-image:linear-gradient(90deg,rgba(5,11,31,.9) 0%,rgba(5,11,31,.5) 60%,rgba(5,11,31,.25) 100%),url(images/sermon-stage.jpg);background-size:cover;background-position:center 30%;background-attachment:fixed}
+.ph-give{background-image:linear-gradient(90deg,rgba(5,11,31,.9) 0%,rgba(5,11,31,.5) 60%,rgba(5,11,31,.25) 100%),url(images/celebration.jpg);background-size:cover;background-position:center 25%;background-attachment:fixed}
+.ph-contact{background-image:linear-gradient(90deg,rgba(5,11,31,.9) 0%,rgba(5,11,31,.5) 60%,rgba(5,11,31,.25) 100%),url(images/youth.jpg);background-size:cover;background-position:center 25%;background-attachment:fixed}
+.field{width:100%;box-sizing:border-box;padding:16px 18px;border-radius:16px;font-family:inherit;font-size:16px;outline:none}
+.field:focus{border-color:#2448D6 !important}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+@media (max-width:900px){.page-title{font-size:56px !important}.ph-about,.ph-visit,.ph-sermons,.ph-give,.ph-contact{background-attachment:scroll}}
+/* ===== Phone fixes ===== */
+html,body{overflow-x:hidden}
+[style*="width: 92%"]{box-sizing:border-box}
+.menu-btn{display:none}
+@media (max-width:700px){
+[style*="minmax(360px"],[style*="minmax(340px"],[style*="minmax(320px"],[style*="minmax(300px"],[style*="minmax(280px"],[style*="minmax(270px"],[style*="minmax(260px"]{grid-template-columns:minmax(0,1fr) !important;gap:16px !important}
+[style*="minmax(240px"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important}
+[style*="minmax(240px"] img,[style*="minmax(240px"] [style*="height: 300px"]{height:170px !important}
+[style*="minmax(240px"] p{font-size:14px !important}
+[style*="gap: 72px"],[style*="gap: 56px"],[style*="gap: 80px"]{gap:36px !important}
+section[style*="padding: 130px 0"],section[style*="padding: 120px 0"]{padding-top:72px !important;padding-bottom:72px !important}
+section[style*="padding: 0 0 120px"],section[style*="padding: 40px 0 120px"],section[style*="padding: 40px 0 130px"]{padding-bottom:72px !important}
+[style*="padding: 150px 5%"],[style*="padding: 140px 5%"]{padding:88px 6% !important}
+h2{font-size:38px !important;line-height:1.08 !important}
+.online h2,[class*="online"] h2{font-size:44px !important}
+.hero-title{font-size:60px !important}
+.page-title{font-size:48px !important}
+[style*="min-height: 940px"]{min-height:0 !important}
+[style*="min-height: 640px"]{min-height:520px !important}
+[style*="min-height: 300px"],[style*="min-height: 280px"]{min-height:0 !important}
+[style*="margin-top: auto"]{margin-top:8px !important}
+img[style*="height: 660px"],img[style*="height: 640px"],img[style*="height: 620px"]{height:420px !important}
+img[style*="height: 560px"]{height:300px !important}
+[style*="padding: 64px"]{padding:28px !important}
+[style*="padding: 48px"],[style*="padding: 44px"],[style*="padding: 40px"]{padding:26px !important}
+[style*="font-size: 38px"]{font-size:26px !important}
+[style*="font-size: 40px; line-height: 1.1"]{font-size:30px !important}
+[style*="font-size: 46px"]{font-size:28px !important}
+.bento{grid-template-columns:repeat(2,minmax(0,1fr)) !important;grid-auto-rows:210px !important;gap:12px !important}
+.bento > *{grid-column:auto !important;grid-row:auto !important;padding:20px !important}
+.bento > .big,.bento > :last-child{grid-column:span 2 !important}
+.bento span[style*="font-size: 40px"]{font-size:30px !important}
+header .pill-line,header .nav-links{display:none !important}
+header{position:relative;z-index:60;padding:8px 8px 8px 14px !important}
+header img{width:38px !important;height:38px !important}
+.menu-btn{display:flex;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);align-items:center;justify-content:center;cursor:pointer;padding:0}
+header.open .nav-links{display:flex !important;position:absolute;left:0;right:0;top:calc(100% + 10px);flex-direction:column;gap:4px !important;background:#050B1F;border:1px solid rgba(255,255,255,.14);box-shadow:0 20px 40px rgba(0,0,0,.4);border-radius:24px;padding:14px;z-index:50}
+header.open .nav-links a{padding:14px 12px;font-size:18px !important;border-radius:14px}
+.countdown-card{margin:24px 4% 40px !important}
+[style*="font-size: 320px"]{font-size:120px !important}
+[style*="font-size: 64px"]{font-size:38px !important}
+}
+@media (max-width:700px){
+a[aria-label="Play the latest sermon"] img{height:400px !important}
+a[aria-label="Play the latest sermon"] > span[style*="top: 42%"]{top:32% !important;width:76px !important;height:76px !important;margin:-38px 0 0 -38px !important}
+a[aria-label="Play the latest sermon"] > span[style*="bottom: 36px"]{left:22px !important;right:22px !important;bottom:22px !important}
+}
+
+:root{--bg:#FFFFFF;--text:#0B1433;--surface:#F3F5FA;--tint:#EEF2FA;--card:#FFFFFF;--line:rgba(11,20,51,.09);--line-strong:rgba(11,20,51,.22);--wm:rgba(11,20,51,.07);--muted:#5A6584;--gold-text:#8F5E00;--blue-text:#2448D6}
+[data-theme="dark"]{--bg:#050B1F;--text:#FFFFFF;--surface:#0D1733;--tint:#0A1230;--card:#0D1733;--line:rgba(255,255,255,.09);--line-strong:rgba(255,255,255,.3);--wm:rgba(255,255,255,.07);--muted:#A9B4D0;--gold-text:#F2B630;--blue-text:#7D9BFF}
+body{background:var(--bg) !important}
+.icon-sun,.icon-moon{display:flex}
+html:not([data-theme="dark"]) .icon-sun{display:none}
+[data-theme="dark"] .icon-moon{display:none}
+/* ===== Phone fixes ===== */
+html,body{overflow-x:hidden}
+.menu-btn{display:none}
+@media (max-width:700px){
+[style*="minmax(360px"],[style*="minmax(340px"],[style*="minmax(320px"],[style*="minmax(300px"],[style*="minmax(280px"],[style*="minmax(270px"],[style*="minmax(260px"]{grid-template-columns:minmax(0,1fr) !important;gap:16px !important}
+[style*="minmax(240px"]{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important}
+[style*="minmax(240px"] img,[style*="minmax(240px"] [style*="height: 300px"]{height:170px !important}
+[style*="minmax(240px"] p{font-size:14px !important}
+[style*="gap: 72px"],[style*="gap: 56px"],[style*="gap: 80px"]{gap:36px !important}
+section[style*="padding: 130px 0"],section[style*="padding: 120px 0"]{padding-top:72px !important;padding-bottom:72px !important}
+section[style*="padding: 0 0 120px"],section[style*="padding: 40px 0 120px"],section[style*="padding: 40px 0 130px"]{padding-bottom:72px !important}
+[style*="padding: 150px 5%"],[style*="padding: 140px 5%"]{padding:88px 6% !important}
+h2{font-size:38px !important;line-height:1.08 !important}
+.online h2,[class*="online"] h2{font-size:44px !important}
+.hero-title{font-size:60px !important}
+.page-title{font-size:48px !important}
+[style*="min-height: 940px"]{min-height:0 !important}
+[style*="min-height: 640px"]{min-height:520px !important}
+[style*="min-height: 300px"],[style*="min-height: 280px"]{min-height:0 !important}
+[style*="margin-top: auto"]{margin-top:8px !important}
+img[style*="height: 660px"],img[style*="height: 640px"],img[style*="height: 620px"]{height:420px !important}
+img[style*="height: 560px"]{height:300px !important}
+[style*="padding: 64px"]{padding:28px !important}
+[style*="padding: 48px"],[style*="padding: 44px"],[style*="padding: 40px"]{padding:26px !important}
+[style*="font-size: 38px"]{font-size:26px !important}
+[style*="font-size: 40px; line-height: 1.1"]{font-size:30px !important}
+[style*="font-size: 46px"]{font-size:28px !important}
+.bento{grid-template-columns:repeat(2,minmax(0,1fr)) !important;grid-auto-rows:210px !important;gap:12px !important}
+.bento > *{grid-column:auto !important;grid-row:auto !important;padding:20px !important}
+.bento > .big,.bento > :last-child{grid-column:span 2 !important}
+.bento span[style*="font-size: 40px"]{font-size:30px !important}
+header .pill-line,header .nav-links{display:none !important}
+header{position:relative;z-index:60;padding:8px 8px 8px 14px !important}
+header img{width:38px !important;height:38px !important}
+.menu-btn{display:flex;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.08);align-items:center;justify-content:center;cursor:pointer;padding:0}
+header.open .nav-links{display:flex !important;position:absolute;left:0;right:0;top:calc(100% + 10px);flex-direction:column;gap:4px !important;background:#050B1F;border:1px solid rgba(255,255,255,.14);box-shadow:0 20px 40px rgba(0,0,0,.4);border-radius:24px;padding:14px;z-index:50}
+header.open .nav-links a{padding:14px 12px;font-size:18px !important;border-radius:14px}
+.countdown-card{margin:24px 4% 40px !important}
+[style*="font-size: 320px"]{font-size:120px !important}
+[style*="font-size: 64px"]{font-size:38px !important}
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="themed" style="font-family: 'Plus Jakarta Sans', sans-serif; color: var(--text); background: var(--bg); min-width: 0; transition: background-color .4s ease, color .4s ease">
+
+  <section class="ph-contact" style="color: #FFFFFF; position: relative; min-height: 640px; display: flex; flex-direction: column">
+    <!-- Floating glass nav -->
+    <div style="padding: 24px 4% 0">
+      <header class="glass" style="max-width: 1280px; margin: 0 auto; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; padding: 10px 10px 10px 18px; display: flex; align-items: center; justify-content: space-between; gap: 20px">
+        <a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none">
+          <img src="images/logo.png" alt="Assemblies of God logo" style="width: 44px; height: 44px; object-fit: contain">
+          <span style="font-weight: 800; font-size: 18px; letter-spacing: 0.02em; color: #FFFFFF">AGIWC</span>
+        </a>
+        <nav class="nav-links" style="display: flex; gap: 32px; font-size: 15px; font-weight: 500">
+          <a href="visit.html" style="color: #FFFFFF; text-decoration: none">Visit &amp; Events</a>
+          <a href="about.html" style="color: #FFFFFF; text-decoration: none">About</a>
+          <a href="sermons.html" style="color: #FFFFFF; text-decoration: none">Sermons</a>
+          <a href="about.html#ministries" style="color: #FFFFFF; text-decoration: none">Ministries</a>
+          <a href="contact.html" style="color: #FFFFFF; text-decoration: none">Contact</a>
+        </nav>
+        <div style="display: flex; align-items: center; gap: 10px">
+          <button type="button" class="menu-btn" aria-label="Open menu" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
+          <button type="button" class="theme-btn" id="theme-toggle" aria-label="Switch between light and dark mode" title="Light / dark mode" style="width: 46px; height: 46px; border-radius: 50%; border: 1px solid rgba(255,255,255,.3); background: rgba(255,255,255,.08); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0">
+            <span class="icon-sun">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#F2B630" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"></path></svg>
+            </span>
+            <span class="icon-moon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"></path></svg>
+            </span>
+          </button>
+          <a class="pill-line" href="sermons.html" style="display: flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 999px; border: 1px solid rgba(255,255,255,.3); text-decoration: none; color: #FFFFFF; font-size: 14px; font-weight: 600">
+            <span class="live-dot" style="width: 8px; height: 8px; border-radius: 50%; background: #F2B630; display: inline-block"></span>Watch live
+          </a>
+          <a class="pill-gold" href="give.html" style="padding: 13px 24px; border-radius: 999px; background: #F2B630; color: #050B1F; text-decoration: none; font-size: 14px; font-weight: 700">Give</a>
+        </div>
+      </header>
+    </div>
+    <div style="flex-grow: 1; max-width: 1280px; width: 92%; margin: 0 auto; display: flex; flex-direction: column; justify-content: flex-end; padding: 60px 0 96px">
+      <p style="margin: 0 0 22px; font-size: 14px; color: #D5DCEC"><a href="index.html" style="color: #D5DCEC; text-decoration: none">Home</a>  /  <span style="color: #FFFFFF; font-weight: 600">Contact</span></p>
+      <span class="glass" style="align-self: flex-start; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; padding: 9px 18px; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; color: #F2B630">GET IN TOUCH</span>
+      <h1 class="page-title" style="margin: 26px 0 0; font-size: 96px; line-height: 0.95; font-weight: 800; letter-spacing: -0.035em; max-width: 900px">We'd love to<br>hear from you.</h1>
+      <p style="margin: 26px 0 0; font-size: 21px; line-height: 1.6; color: #D5DCEC; max-width: 620px">Questions, prayer requests, or just want to say hello? Send us a message and the church office will get back to you.</p>
+    </div>
+  </section>
+  <section style="padding: 120px 0;">
+    <div style="max-width: 1280px; width: 92%; margin: 0 auto">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 40px; align-items: start">
+        <form style="background: var(--surface); border: 1px solid var(--line); border-radius: 28px; border-radius: 32px; padding: 44px; display: flex; flex-direction: column; gap: 20px">
+          <p style="margin: 0; font-size: 30px; font-weight: 800; letter-spacing: -0.02em">Send a message</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="c-name" style="font-size: 14px; font-weight: 600">Full name</label>
+              <input id="c-name" class="field" type="text" placeholder="Your name" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text)">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="c-phone" style="font-size: 14px; font-weight: 600">Phone (optional)</label>
+              <input id="c-phone" class="field" type="tel" placeholder="+234" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text)">
+            </div>
+          </div>
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="c-email" style="font-size: 14px; font-weight: 600">Email</label>
+              <input id="c-email" class="field" type="email" placeholder="you@example.com" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text)">
+            </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <label for="c-topic" style="font-size: 14px; font-weight: 600">What is it about?</label>
+            <select id="c-topic" class="field" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text)"><option>General question</option><option>Planning a visit</option><option>Joining a ministry</option><option>Giving</option><option>Something else</option></select>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <label for="c-msg" style="font-size: 14px; font-weight: 600">Message</label>
+            <textarea id="c-msg" class="field" rows="5" placeholder="How can we help?" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text); resize: vertical"></textarea>
+          </div>
+          <button type="button" class="pill-gold" style="align-self: flex-start; border: none; cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: 10px; padding: 19px 32px; border-radius: 999px; background: #F2B630; color: #050B1F; text-decoration: none; font-size: 16px; font-weight: 700">Send message <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button>
+        </form>
+        <div style="display: flex; flex-direction: column; gap: 14px">
+          <div style="display: flex; gap: 18px; align-items: center; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px">
+            <span style="width: 52px; height: 52px; border-radius: 16px; background: rgba(242,182,48,.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B07A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="10" r="3"></circle><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path></svg></span>
+            <span><span style="display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted)">VISIT</span><span style="display: block; margin-top: 4px; font-size: 18px; font-weight: 700">3rd Avenue, Gwarinpa, Abuja</span></span>
+          </div>
+          <div style="display: flex; gap: 18px; align-items: center; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px">
+            <span style="width: 52px; height: 52px; border-radius: 16px; background: rgba(242,182,48,.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B07A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg></span>
+            <span><span style="display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted)">CALL</span><span style="display: block; margin-top: 4px; font-size: 18px; font-weight: 700">[Phone number]</span></span>
+          </div>
+          <div style="display: flex; gap: 18px; align-items: center; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px">
+            <span style="width: 52px; height: 52px; border-radius: 16px; background: rgba(242,182,48,.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B07A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="M3 7l9 6 9-6"></path></svg></span>
+            <span><span style="display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted)">EMAIL</span><span style="display: block; margin-top: 4px; font-size: 18px; font-weight: 700">[Email address]</span></span>
+          </div>
+          <div style="display: flex; gap: 18px; align-items: center; padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 28px">
+            <span style="width: 52px; height: 52px; border-radius: 16px; background: rgba(242,182,48,.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#B07A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span>
+            <span><span style="display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.16em; color: var(--muted)">OFFICE HOURS</span><span style="display: block; margin-top: 4px; font-size: 18px; font-weight: 700">[Office opening hours]</span></span>
+          </div>
+          <div style="padding: 28px; border-radius: 28px; background: #0B1433; color: #FFFFFF">
+            <p style="margin: 0 0 8px; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: #F2B630">SERVICE TIMES</p>
+            <p style="margin: 0; font-size: 17px; line-height: 1.8">Sunday · 7:00am, 8:30am, 10:00am<br>Wednesday · 5:30pm<br>Saturday Evangelism · 10:00am</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="padding: 120px 0; background: var(--tint);">
+    <div style="max-width: 1280px; width: 92%; margin: 0 auto">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 56px; align-items: center">
+        <div>
+          <p style="margin: 0 0 14px; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; color: var(--gold-text)">PRAYER</p>
+          <h2 style="margin: 0; font-size: 56px; line-height: 1.02; font-weight: 800; letter-spacing: -0.03em">Can we pray for you?</h2>
+          <p style="margin: 24px 0 0; font-size: 19px; line-height: 1.7; color: var(--muted)">Our prayer team prays over every request. Share as much or as little as you like.</p>
+        </div>
+        <form style="background: var(--bg); border: 1px solid var(--line); border-radius: 32px; padding: 40px; display: flex; flex-direction: column; gap: 18px">
+            <div style="display: flex; flex-direction: column; gap: 8px">
+              <label for="p-name" style="font-size: 14px; font-weight: 600">Name (optional)</label>
+              <input id="p-name" class="field" type="text" placeholder="Your name" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text)">
+            </div>
+          <div style="display: flex; flex-direction: column; gap: 8px">
+            <label for="p-req" style="font-size: 14px; font-weight: 600">Your prayer request</label>
+            <textarea id="p-req" class="field" rows="4" placeholder="What would you like us to pray about?" style="border: 1px solid var(--line-strong); background: var(--bg); color: var(--text); resize: vertical"></textarea>
+          </div>
+          <label style="display: flex; gap: 12px; align-items: center; font-size: 15px; color: var(--muted)"><input type="checkbox" style="width: 20px; height: 20px; accent-color: #2448D6">Keep my request private (prayer team only)</label>
+          <button type="button" style="align-self: flex-start; border: none; cursor: pointer; font-family: inherit; padding: 18px 30px; border-radius: 999px; background: #2448D6; color: #FFFFFF; font-size: 16px; font-weight: 700">Send prayer request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="contact" style="position: relative; overflow: hidden; padding: 100px 0 40px; border-top: 1px solid var(--line)">
+    <div class="watermark" aria-hidden="true" style="position: absolute; left: 50%; bottom: -40px; transform: translateX(-50%); font-size: 320px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; color: transparent; -webkit-text-stroke: 1px var(--wm); white-space: nowrap">AGIWC</div>
+    <div style="position: relative; max-width: 1280px; width: 92%; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 48px">
+      <div>
+        <div style="display: flex; align-items: center; gap: 12px">
+          <img src="images/logo.png" alt="Assemblies of God logo" style="width: 54px; height: 54px; object-fit: contain">
+          <span style="font-weight: 800; font-size: 20px">AGIWC</span>
+        </div>
+        <p style="margin: 20px 0 24px; font-size: 16px; line-height: 1.7; color: var(--muted)">Assemblies of God International Worship Centre, Gwarinpa. All the Gospel.</p>
+        <div style="display: flex; gap: 10px">
+          <a href="#" aria-label="YouTube" style="color: var(--text); width: 46px; height: 46px; border-radius: 50%; background: var(--surface); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"></rect><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"></path></svg>
+          </a>
+          <a href="#" aria-label="Facebook" style="color: var(--text); width: 46px; height: 46px; border-radius: 50%; background: var(--surface); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14.5 8H17V4.5h-2.5A3.5 3.5 0 0 0 11 8v2.5H8.5V14H11v6.5h3.5V14H17l.5-3.5h-3V8.5a.5.5 0 0 1 .5-.5z"></path></svg>
+          </a>
+          <a href="#" aria-label="Instagram" style="color: var(--text); width: 46px; height: 46px; border-radius: 50%; background: var(--surface); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="0.8" fill="currentColor"></circle></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 0 0 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.2em">SERVICE TIMES</p>
+        <p style="margin: 0; font-weight: 600">Sunday</p>
+        <p style="margin: 4px 0 14px; color: var(--gold-text)">7:00am · 8:30am · 10:00am</p>
+        <p style="margin: 0; font-weight: 600">Wednesday</p>
+        <p style="margin: 4px 0 14px; color: var(--gold-text)">Midweek Service · 5:30pm</p>
+        <p style="margin: 0; font-weight: 600">Saturday</p>
+        <p style="margin: 4px 0 0; color: var(--gold-text)">Evangelism · 10:00am</p>
+      </div>
+      <div>
+        <p style="margin: 0 0 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.2em">EXPLORE</p>
+        <div style="display: flex; flex-direction: column; gap: 12px; font-size: 16px">
+          <a href="visit.html" style="color: var(--muted); text-decoration: none">Visit &amp; Events</a>
+          <a href="about.html" style="color: var(--muted); text-decoration: none">About us</a>
+          <a href="sermons.html" style="color: var(--muted); text-decoration: none">Sermons</a>
+          <a href="about.html#ministries" style="color: var(--muted); text-decoration: none">Ministries</a>
+          <a href="give.html" style="color: var(--muted); text-decoration: none">Give</a>
+          <a href="contact.html" style="color: var(--muted); text-decoration: none">Contact</a>
+        </div>
+      </div>
+      <div>
+        <p style="margin: 0 0 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.2em">CONTACT</p>
+        <p style="margin: 0 0 14px; font-size: 16px; line-height: 1.6; color: var(--muted)">3rd Avenue, Gwarinpa,<br>Federal Capital Territory, Nigeria</p>
+        <p style="margin: 0 0 6px; font-size: 16px; color: var(--muted)">[Phone number]</p>
+        <p style="margin: 0; font-size: 16px; color: var(--muted)">[Email address]</p>
+      </div>
+    </div>
+    <div style="position: relative; max-width: 1280px; width: 92%; margin: 80px auto 0; padding-top: 26px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px; color: var(--muted)">
+      <span>© 2026 Assemblies of God International Worship Centre. All rights reserved.</span>
+      <a href="#" style="color: var(--muted); text-decoration: none">Privacy policy</a>
+    </div>
+  </footer>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
